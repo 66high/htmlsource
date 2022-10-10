@@ -33,14 +33,19 @@
         padding:100px;
 
 }
-.headtext  {font-size: 60px;
+.headtext  	{font-size: 60px;
 			margin-top:50px;
 			text-shadow: 3px 1px 2px grey;
 			font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 			font-weight: bold;
 			font-style: normal;
             text-align: center;}
-.subtext {font-size: 30px;
+.subtext 	{font-size: 30px;
+			font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+			font-weight: normal;
+			font-style: normal;
+            text-align: center;}
+.infosubtext{font-size: 20px;
 			font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 			font-weight: normal;
 			font-style: normal;
@@ -50,7 +55,12 @@
 			font-weight: normal;
 			font-style: normal;
             text-align: center;}
-			
+.hypertextremover{
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	color: black;
+}			
 
 .logoscale:hover{
   animation-duration: 1.2s;
@@ -65,12 +75,15 @@
   100% {
 	transform: scale(1.2)}
 }
-   
 </style>
 
 <body style="background-image: url(bg.jpg); background-position: top center"> </body>
 		<p class="headtext">Сайт-визитка студента Окунева Арсения.</p>
-		<div class=photoblock><a><img class="round" src=myself.jpg width="400" height="500" alt="Что-то пошло не так и моя фотография не загрузилась. К сожалению, вы не сможете ей насладиться."></a>		</div>
+<div class=photoblock><a><img class="round" src=myself.jpg width="400" height="500" alt="Что-то пошло не так и моя фотография не загрузилась. К сожалению, вы не сможете ей насладиться."></a>		</div>
+	<p class=subtext>Обо мне:</p>
+	<p class=infosubtext> Я обучаюсь на первом курсе фактультета компьютерных наук в ВГУ. 
+	В школе много времени уделял английскому языку и программированию.
+	В будущем хочу стать высококлассным специалистом в сфере IT. Ну или же управлять поездом.</p>
 		<p class="subtext"> Мои контакты:</p>
 	<div class=mainblock>
 		<div class="logoscale">
@@ -83,7 +96,11 @@
 		<div class="logoscale">
 			<a href="https://instagram.com/66high"><img class="blockpadding" src=Insta.png width="150" height="150" alt="Meta" title = "Instagram">
 		</div>
-	</div>	
+	</div>
+		<div class=hypertextremover>
+		<p class=infosubtext>Контактный телефон: +79601190974</p>
+		<p class=infosubtext>Контактный e-mail: 1neosxm@gmail.com</p>
+		</div>
 </html>
 
 
