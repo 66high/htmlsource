@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Quarx';
+    src: url('QuarxRegular.eot');
+    src: local('Quarx'), local('QuarxRegular'),
+        url('QuarxRegular.eot?#iefix') format('embedded-opentype'),
+        url('QuarxRegular.woff2') format('woff2'),
+        url('QuarxRegular.woff') format('woff'),
+        url('QuarxRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
